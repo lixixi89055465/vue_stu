@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+ * @Author: name
+ * @Date: 
+ * @LastEditors: name
+ * @Description: desc
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript"
+            src="../js/vue.js">
+    </script>
+
+</head>
+<body>
+<div>
+    <h2>学校名称:{{name}}</h2>
+    <h2>学校地址：{{address}}</h2>
+</div>
+
+</body>
+<script type="text/javascript">
+    Vue.config.productionTip = false//组织 vue 在启动
+    new Vue({
+        el: '#root',
+        data: {}
+    })
+</script>
+</html>
